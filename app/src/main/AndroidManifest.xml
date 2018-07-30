@@ -18,10 +18,9 @@
         <activity android:name=".URIActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:host="www.kliq.com" android:pathPrefix="/name" android:scheme="http" android:pathPattern="/.*" />
+                <data android:scheme="example" android:host="kliq" android:pathPattern="/.*" />
             </intent-filter>
         </activity>
     </application>

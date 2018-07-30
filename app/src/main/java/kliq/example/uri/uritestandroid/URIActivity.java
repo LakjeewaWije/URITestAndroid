@@ -16,7 +16,6 @@ private TextView hostTextView;
         Intent intent = getIntent();
         String action = intent.getAction();
         Uri data = intent.getData();
-        hostTextView.setText(data.getQueryParameter("name"));
-
+//        hostTextView.setText(data.getQueryParameter("name"));
     }
 }
