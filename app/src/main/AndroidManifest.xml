@@ -20,7 +20,11 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="example" android:host="kliq" android:pathPattern="/.*" />
+                <data android:scheme="market" android:host="com.kliq.app"  android:pathPattern="/.*" />
+                <!---->
+                <!--<data android:scheme="http" android:host="market.android.com"
+                android:path="/search" />-->
+                <!--myapp://open.kliq.app/?name=kliq-->
             </intent-filter>
         </activity>
     </application>
